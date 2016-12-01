@@ -1,0 +1,19 @@
+Package: STISoftware
+Type: Package
+Title: EM algorithm
+Version: 1.0.0
+Date: 2016-10-24
+Author: Yijia Liu [aut, cre],
+	Fei He [aut],
+	Johannes Lederer [ctb]
+Maintainer: Yijia Liu <yijia987@gmail.com>
+Description: This is a package implementing log-likelihood based expectation-
+    maximization(EM) algorithm to predict STI probability based on imperfect
+    diagnostic tests. It allows users to input binary, categorical, and continuous
+    covariates changing or fixed over time. Groups with different sensitivity/
+    specificity due to technology used could be detected and separated.
+Imports:
+	data.table
+License: GPL-2
+LazyData: true
+RoxygenNote: 5.0.1
